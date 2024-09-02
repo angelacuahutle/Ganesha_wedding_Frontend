@@ -45,7 +45,7 @@ function FourthPage() {
                 alt=""
                 src="/decorationImg.jpg"
               />
-              <div className="self-stretch flex flex-row items-center justify-start lg:gap-[14.1px]">
+              <div className="self-stretch flex flex-row items-center justify-center lg:gap-[14.1px]">
                 <div className="h-[110px] relative tracking-[0.04em] leading-[55px] inline-block lg:text-8xl lg:leading-[45px]">
                   <p className="m-0">DISEÑO Y</p>
                   <p className="m-0">DECORACIÓN</p>

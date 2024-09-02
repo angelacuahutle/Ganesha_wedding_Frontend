@@ -18,7 +18,7 @@ function FifthPage({galleryCover, galleryData}) {
   // console.log(galleryData[2][val])
   return (
     <div data-scroll-to="fifthPage" >
-             <div className="self-stretch  flex flex-col items-center justify-center text-[60px] text-white  w-[100vw]  ">
+             <div className="self-stretch  flex flex-col items-center justify-center text-[60px] text-white  w-[100vw]">
         {/* <div className="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start">
           <div className="self-stretch bg-gainsboro overflow-hidden" />
         </div> */}
@@ -33,14 +33,19 @@ function FifthPage({galleryCover, galleryData}) {
           /></Link>
           <div className="relative bottom-[200px] tracking-[0.04em] font-semibold md:text-[42px] md:bottom-[120px] sm:bottom-[80px] sm:text-[27px] ">{`Daniela & Carlos`}</div>
         </div> */}
-        <video className="  flex flex-col items-center justify-center  px-0  w-[100vw] " controls>
-        <source src="your-video-file.mp4" type="video/mp4" />
-        </video>
+        <div data-scroll-to="fifthPage" style={{ display: 'none' }}>
+          <div className="self-stretch flex flex-col items-center justify-center text-[60px] text-white w-[100vw]">
+            {/* Content goes here */}
+            <video className="hidden-video flex flex-col items-center justify-center px-0 w-[100vw]" controls>
+              <source src="your-video-file.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
 
       </div>
 
       {/* Bottom part */}
-        <div className='pt-32 sm:pt-10 pb-10 bg-gainsboro'>
+      <div className='pt-0 sm:pt-10 pb-10 bg-gainsboro'>
         <SlickSlider galleryData={galleryData}/>
         </div>
       {/* <div className="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start ">

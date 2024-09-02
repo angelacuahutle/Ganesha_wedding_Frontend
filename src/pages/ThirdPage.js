@@ -17,7 +17,7 @@ function ThirdPage({employeeData}) {
   return (
     <div className="self-stretch bg-white overflow-hidden flex flex-col items-start justify-start py-[50px] px-[50px] md:items-center md:justify-start md:pl-5 md:pr-5 md:box-border sm:pl-[15px] sm:pr-[15px] sm:box-border md:py-5">
     <div className="self-stretch flex flex-col items-start justify-center  px-[50px] lg:px-0">
-    <div style={{color: '#853f10'}} className="relative text-left text-[32px] mb-10  ">¡CONÓCENOS!</div>
+    <div className="relative text-left text-[32px] mb-10 ">¡CONÓCENOS!</div>
       <div className="self-stretch flex flex-row flex-wrap items-start justify-between gap-[50px]  lg:gap-[10px] md:gap-[20px] md:justify-evenly">
         {
           employeeData && sortedArray.map((e, index)=>{

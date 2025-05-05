@@ -17,7 +17,7 @@ const SideMenu = ({sideBarDisplay, showNav, onMenuBtnClick}) => {
   return (
     <>
 
-         <div style={{backgroundColor: '#E2DEE1 '}} id="drawer-navigation" className={`  fixed top-0 right-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform  ${sideBarDisplay}  dark:bg-gray-800`} tabIndex="-1" aria-labelledby="drawer-navigation-label">
+         <div style={{backgroundColor: '#E2DEE1 '}} id="drawer-navigation" className={`  fixed top-0 right-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform  ${sideBarDisplay}  white:bg-black-800`} tabIndex="-1" aria-labelledby="drawer-navigation-label">
 
             <h5 id="drawer-navigation-label" className=" mt-5 text-xl font-semibold  uppercase font-isidora-sans mb-0">Menu</h5>
             <button onClick={showNav} type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" className= " mt-5 bg-transparent hover:bg-gray-200  rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center  " >
